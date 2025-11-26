@@ -1,0 +1,106 @@
+/* Aesthetic Modern Pastel Style */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #f8efff, #e6f7ff);
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 650px;
+    margin: auto;
+    padding: 25px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 5px;
+    font-weight: 700;
+    color: #4b3f72;
+}
+
+.sub {
+    text-align: center;
+    font-size: 14px;
+    color: #6b6b6b;
+    margin-bottom: 25px;
+}
+
+.form-box {
+    background: #ffffffcc;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+    backdrop-filter: blur(6px);
+    margin-bottom: 35px;
+    border: 1px solid #eee;
+}
+
+textarea {
+    width: 100%;
+    height: 110px;
+    padding: 12px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    font-size: 15px;
+    resize: none;
+    transition: 0.3s;
+}
+
+textarea:focus {
+    border-color: #a475f8;
+    outline: none;
+    box-shadow: 0 0 5px #d4c3ff;
+}
+
+.upload-label {
+    display: block;
+    margin-top: 15px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #4b3f72;
+}
+
+#saveBtn {
+    margin-top: 15px;
+    width: 100%;
+    padding: 12px;
+    border: none;
+    background: #a475f8;
+    color: white;
+    font-size: 17px;
+    border-radius: 12px;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(164,117,248,0.4);
+    transition: 0.3s;
+}
+
+#saveBtn:hover {
+    background: #814ceb;
+}
+
+.note-card {
+    background: white;
+    padding: 15px;
+    border-radius: 12px;
+    margin-bottom: 18px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+    border-left: 5px solid #a475f8;
+}
+
+.note-card p {
+    font-size: 15px;
+    line-height: 1.5;
+    color: #333;
+}
+
+.note-card img {
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.note-card audio {
+    width: 100%;
+    margin-top: 10px;
+}

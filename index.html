@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Daily Stories App (Online Version)</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div class="container">
+        <h1>Daily Stories ✨</h1>
+        <p class="sub">Tulis catatan, upload foto, dan rekam hidupmu setiap hari</p>
+
+        <div class="form-box">
+            <textarea id="noteInput" placeholder="Tulis catatan harianmu..."></textarea>
+
+            <label class="upload-label">
+                Upload Foto:
+                <input type="file" id="photoInput" accept="image/*" />
+            </label>
+
+            <label class="upload-label">
+                Upload Suara:
+                <input type="file" id="voiceInput" accept="audio/*" />
+            </label>
+
+            <button id="saveBtn">Simpan</button>
+        </div>
+
+        <h2>Catatan Semua Orang</h2>
+        <div id="notesList"></div>
+    </div>
+
+    <script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-firestore-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-storage-compat.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
